@@ -9,7 +9,7 @@ metadata={
 
 [deps]
 
-source_file="res://addons/snopek_state_machine/State.png"
+source_file="res://addons/snopek-state-machine/State.png"
 dest_files=[ "res://.import/State.png-0a6ac08fd365a1002e9301bb2e09eab2.stex" ]
 
 [params]

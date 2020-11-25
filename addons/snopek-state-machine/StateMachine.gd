@@ -12,7 +12,7 @@ signal state_changed (state)
 #func _get_configuration_warning() -> String:
 #	var bad_children = PoolStringArray()
 #	for child in get_children():
-#		if not child is preload("res://addons/snopek_state_machine/State.gd"):
+#		if not child is preload("res://addons/snopek-state-machine/State.gd"):
 #			bad_children.append(child.name)
 #	if bad_children.size() > 0:
 #		return "All direct children of StateMachine must be State: " + bad_children.join(", ")

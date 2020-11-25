@@ -1,7 +1,7 @@
 tool
 extends Node
 
-const StateMachine = preload("res://addons/snopek_state_machine/StateMachine.gd")
+const StateMachine = preload("res://addons/snopek-state-machine/StateMachine.gd")
 
 func _get_configuration_warning() -> String:
 	if not get_parent() is StateMachine:
